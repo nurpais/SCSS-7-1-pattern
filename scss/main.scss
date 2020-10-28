@@ -1,0 +1,27 @@
+// Abstracts
+@import "./abstracts/variables";
+@import "./abstracts/mixins";
+@import "./abstracts/placeholders";
+@import "./abstracts/classes";
+@import "./abstracts/animations";
+
+// Vendors
+// @import "./vendors/example-library";
+
+// Base
+@import "./base/base";
+@import "./base/reset";
+@import "./base/typography";
+
+// Layout
+@import "./layout/footer";
+
+// Components
+@import "./components/buttons";
+
+// Pages (alphabetical order)
+@import "./pages/home";
+
+// Themes (alphabetical order)
+@import "./themes/admin";
+@import "./themes/authenticated";
