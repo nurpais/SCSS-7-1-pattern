@@ -1,12 +1,25 @@
-.center-not {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.mt-2 {
+  margin-top: 2rem !important;
+}
+
+@media (min-width: 768px) {
+
+  .mt-md-4 {
+    margin-top: 4rem !important;
+  }
+}
+html {
+  font-size: 62.5%;
+  min-width: 320px;
+  overflow-x: hidden;
+  background-color: #fff;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
 }
 
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
@@ -67,6 +80,61 @@ th {
 td:not([align]),
 th:not([align]) {
   text-align: left;
+}
+
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  color: #000;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

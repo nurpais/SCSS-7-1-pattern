@@ -4,6 +4,7 @@
 @import "./abstracts/placeholders";
 @import "./abstracts/classes";
 @import "./abstracts/animations";
+@import "./abstracts/spacing";
 
 // Vendors
 // @import "./vendors/example-library";
@@ -14,14 +15,11 @@
 @import "./base/typography";
 
 // Layout
+@import "./layout/container";
 @import "./layout/footer";
 
 // Components
 @import "./components/buttons";
 
-// Pages (alphabetical order)
+// Pages
 @import "./pages/home";
-
-// Themes (alphabetical order)
-@import "./themes/admin";
-@import "./themes/authenticated";
